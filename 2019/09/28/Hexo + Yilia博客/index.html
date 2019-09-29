@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>第一个个人博客的搭建 | ID137513479|Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Hexo + Yilia博客本文描述了如何搭建一个基于Hexo的个人博客，并选择yilia作为博客主题。此外，yilia配置上的一些难点，也在本文中给出了解决办法。方法源自网络，末尾给出了链接。">
+  <meta name="description" content="本文描述了如何搭建一个基于Hexo的个人博客，并选择yilia作为博客主题。此外，yilia配置上的一些难点，也在本文中给出了解决办法。方法源自网络，末尾给出了链接。">
 <meta name="keywords" content="hexo,yilia">
 <meta property="og:type" content="article">
 <meta property="og:title" content="第一个个人博客的搭建">
 <meta property="og:url" content="http://yoursite.com/2019/09/28/Hexo + Yilia博客/index.html">
 <meta property="og:site_name" content="ID137513479|Hexo">
-<meta property="og:description" content="Hexo + Yilia博客本文描述了如何搭建一个基于Hexo的个人博客，并选择yilia作为博客主题。此外，yilia配置上的一些难点，也在本文中给出了解决办法。方法源自网络，末尾给出了链接。">
+<meta property="og:description" content="本文描述了如何搭建一个基于Hexo的个人博客，并选择yilia作为博客主题。此外，yilia配置上的一些难点，也在本文中给出了解决办法。方法源自网络，末尾给出了链接。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-28T14:14:28.742Z">
+<meta property="og:updated_time" content="2019-09-29T03:13:54.647Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="第一个个人博客的搭建">
-<meta name="twitter:description" content="Hexo + Yilia博客本文描述了如何搭建一个基于Hexo的个人博客，并选择yilia作为博客主题。此外，yilia配置上的一些难点，也在本文中给出了解决办法。方法源自网络，末尾给出了链接。">
+<meta name="twitter:description" content="本文描述了如何搭建一个基于Hexo的个人博客，并选择yilia作为博客主题。此外，yilia配置上的一些难点，也在本文中给出了解决办法。方法源自网络，末尾给出了链接。">
   
     <link rel="alternative" href="/atom.xml" title="ID137513479|Hexo" type="application/atom+xml">
   
@@ -152,17 +152,31 @@
 
         
         <a href="/2019/09/28/Hexo + Yilia博客/" class="archive-article-date">
-  	<time datetime="2019-09-27T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-28</time>
+  	<time datetime="2019-09-28T02:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-28</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Hexo-Yilia博客"><a href="#Hexo-Yilia博客" class="headerlink" title="Hexo + Yilia博客"></a>Hexo + Yilia博客</h2><p>本文描述了如何搭建一个基于Hexo的个人博客，并选择yilia作为博客主题。此外，yilia配置上的一些难点，也在本文中给出了解决办法。<br>方法源自网络，末尾给出了链接。</p>
+        <p>本文描述了如何搭建一个基于Hexo的个人博客，并选择yilia作为博客主题。此外，yilia配置上的一些难点，也在本文中给出了解决办法。方法源自网络，末尾给出了链接。</p>
 <a id="more"></a>
 
-<h3 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">动态博客框架</span><br><span class="line">wordpress	PHP		前后端</span><br><span class="line"></span><br><span class="line">静态博客框架</span><br><span class="line">hexo		js  	纯前端</span><br><span class="line">0、安装git</span><br><span class="line">1、nodejs.org	下载安装包并安装</span><br><span class="line">2、进入终端</span><br><span class="line">git -v 			//查看git版本</span><br><span class="line">node -v 		//查看node版本</span><br><span class="line">npm -v 			//查看npm版本</span><br><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org		//切换到淘宝镜像</span><br><span class="line">cnpm -v 		//查看cnpm版本</span><br><span class="line">cnpm install -g hexo-cli 			// 安装hexo博客</span><br><span class="line">pwd或者chdir		//查看路径</span><br><span class="line">mkdir blog		//在上述路径下新建blog文件夹</span><br><span class="line">pwd或者cd blog	//切换到blog文件下</span><br><span class="line">sudo hexo init  //hexo初始化</span><br><span class="line">hexo s 			//启动hexo，打开地址即可看到博客，用来预览用的</span><br><span class="line">hexo n &quot;我的第一篇博客文章&quot; //新建一篇博客，位于//source/_posts，window直接用sublime打开编辑，其他vim编辑</span><br><span class="line">hexo clean 		//退回到blog目录下执行命令</span><br><span class="line">hexo g 			//重新生成</span><br><span class="line">3、博客部署到GitHub</span><br><span class="line">GitHub网址：www.github.com</span><br><span class="line">注册账户 ID137513479 @github1!</span><br><span class="line">新建仓库 repository，ID137513479.github.io</span><br><span class="line">终端切到blog目录下</span><br><span class="line">cnpm install --save hexo-deployer-git   	//安装git插件</span><br><span class="line">vim _config.yml        //打开该目录下_config.yml，Windows直接sublime打开</span><br><span class="line">编辑文件底部development</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/ID137513479/ID137513479.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">返回终端blog目录</span><br><span class="line">hexo d</span><br><span class="line">4、更换博客主题</span><br><span class="line">终端打开blog目录</span><br><span class="line">修改_config.yml中Extensions 的theme为yilia</span><br><span class="line">hexo clean</span><br><span class="line">hexo g 				//重新生成generated</span><br><span class="line">hexo s -p 8000		//本地预览start，指定端口8000</span><br><span class="line">hexo d    			//推到远端deploy</span><br></pre></td></tr></table></figure>
+<h2 id="Hexo-Yilia博客"><a href="#Hexo-Yilia博客" class="headerlink" title="Hexo + Yilia博客"></a>Hexo + Yilia博客</h2><h3 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h3><p>搭建基于js语言的hexo(静态，纯前端)博客，日后可尝试动态博客的搭建。</p>
+<p>1、安装git<br>2、安装nodejs，网址nodejs.org<br>3、终端执行命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">git -v 			//查看git版本</span><br><span class="line">node -v 		//查看node版本</span><br><span class="line">npm -v 			//查看npm版本</span><br><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org		//切换到淘宝镜像</span><br><span class="line">cnpm -v 		//查看cnpm版本</span><br><span class="line">cnpm install -g hexo-cli// 安装hexo博客</span><br><span class="line"><span class="built_in">pwd</span>			//查看路径，window下执行<span class="built_in">chdir</span></span><br><span class="line">mkdir blog		//在上述路径下新建blog文件夹</span><br><span class="line"><span class="built_in">pwd</span>或者<span class="built_in">cd</span> blog		//切换到blog文件下</span><br><span class="line">sudo hexo init  	//hexo初始化</span><br><span class="line">hexo s 			//启动hexo，打开地址即可看到博客，用来预览用的</span><br><span class="line">hexo n <span class="string">"Hello Hexo"</span> 	//新建一篇博客，位于//<span class="built_in">source</span>/_posts，window直接用sublime打开编辑，其他vim编辑</span><br><span class="line">hexo clean 		//退回到blog目录下执行命令</span><br><span class="line">hexo g 			//重新生成</span><br></pre></td></tr></table></figure>
+
+<p>4、博客部署到GitHub<br>GitHub网址：<a href="http://www.github.com" target="_blank" rel="noopener">www.github.com</a><br>注册账户，user:ID137513479、passwords:<strong>**</strong><br>新建仓库 repository，ID137513479.github.io(命名规则)<br>终端切到blog目录下</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git   	//安装git插件</span><br><span class="line">vim _config.yml        //打开该目录下_config.yml，Windows直接sublime打开</span><br></pre></td></tr></table></figure>
+
+<p>编辑文件底部development</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/ID137513479/ID137513479.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<p>返回终端blog目录</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<p>5、更换博客主题<br>终端打开blog目录<br>修改_config.yml中Extensions 的theme为yilia<br>终端执行命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g 				//重新生成generated</span><br><span class="line">hexo s -p 8000			//本地预览start，指定端口8000</span><br><span class="line">hexo d    			//推到远端deploy</span><br></pre></td></tr></table></figure>
 
 <h3 id="Yilia主题"><a href="#Yilia主题" class="headerlink" title="Yilia主题"></a>Yilia主题</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
@@ -277,20 +291,15 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/09/28/C++学习笔记1/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/09/28/Markdown格式学习笔记/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          C++学习笔记1
+          Markdown学习笔记
         
       </div>
     </a>
   
-  
-    <a href="/2019/09/28/Markdown格式学习笔记/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Markdown学习笔记</div>
-      <i class="icon-circle-right"></i>
-    </a>
   
 </nav>
 
